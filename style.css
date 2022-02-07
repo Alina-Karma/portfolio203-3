@@ -43,3 +43,72 @@ h1,h2,h3 {
     display: flex;
 }
 
+.button_download-btn {
+    position: absolute;
+    width: 208px;
+    height: 47px;
+    left: 148px;
+    top: 477px;
+    
+    /* Primary */
+    
+    background: #FF6464;
+    border-radius: 2px; 
+    color: #FFFFFF;
+}
+
+.title-about_title {
+    position: absolute;
+width: 506px;
+height: 105px;
+left: 157px;
+top: 215px;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 60px;
+}
+
+.nav{
+    position: absolute;
+width: 152px;
+height: 43px;
+left: 846px;
+top: 27px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+text-align: right;
+}
+
+.about_avatar{
+    position: absolute;
+width: 243px;
+height: 243px;
+left: 755px;
+top: 228px;
+
+}
+.about_img{
+    border-radius: 100%; 
+}
+
+.subtitle {
+    position: absolute;
+width: 129px;
+height: 60px;
+left: 148px;
+top: 602px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 60px;
+/* identical to box height, or 273% */
+
+display: flex;
+align-items: flex-end;
+color: black;
+}
