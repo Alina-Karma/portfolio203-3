@@ -29,6 +29,10 @@ h1,h2,h3 {
     margin: 0;
 }
 
+.wrapper{
+    min-height: 100%;
+}
+
 .container {
     max-width: 865px;
     padding: 0 5px;
@@ -64,15 +68,15 @@ height: 243px;
 border-radius: 50%;
 overflow: hidden;
 flex-shrink: 0;
+
 }
 
 
 .download__btn {
     width: 208px;
     height: 47px;
-    left: 148px;
-    top: 477px;
-    
+   border-style: none;
+
     /* Primary */
     
     background: #FF6464;
@@ -80,7 +84,7 @@ flex-shrink: 0;
     color: #FFFFFF;
 }
 
-.about__title {
+.about__title { 
     width: 506px;
     height: 105px;
     left: 157px;
@@ -89,6 +93,7 @@ flex-shrink: 0;
     font-weight: bold;
     font-size: 44px;
     line-height: 60px;
+    padding-bottom: 150px;
     }
 
 .nav{
@@ -106,5 +111,9 @@ flex-shrink: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.about__desc{
+padding-bottom: 30px;
 }
 
