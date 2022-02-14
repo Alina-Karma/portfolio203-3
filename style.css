@@ -117,3 +117,81 @@ flex-shrink: 0;
 padding-bottom: 30px;
 }
 
+.recent-posts__title{
+    width: 129px;
+height: 60px;
+left: 148px;
+top: 602px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 60px; 
+display: flex;
+align-items: flex-end;
+
+}
+
+.recent-posts__link {
+    width: 208px;
+height: 20px;
+left: 796px;
+top: 622px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+text-align: right;
+}
+
+.recent-posts__subtitle {
+    width: 374px;
+height: 85px;
+left: 171px;
+top: 688px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 38px; 
+}
+
+.recent-posts__info {
+    width: 374px;
+height: 34px;
+left: 171px;
+top: 790px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+}
+
+.recent-posts__text {
+    width: 368px;
+height: 117px;
+left: 171px;
+top: 835px;
+
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+}
+
+.recent-posts {
+    width: 1152px;
+height: 396px;
+left: 0px;
+top: 595px; 
+background: #EDF7FA; 
+}
+
+
