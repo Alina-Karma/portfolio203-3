@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -10,26 +11,30 @@ html, body{
 }
 
 body {
-    font-family: 'Roboto', sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.42;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
+
 a {
-text-decoration: none;
-color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
-.wrapper{
+.wrapper {
     min-height: 100%;
 }
 
@@ -39,12 +44,12 @@ h1,h2,h3 {
     margin: 0 auto;
 }
 
-.header{
+.header {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.header__container{
+.header__container {
     max-width: 1032px;
     display: flex;
     justify-content: flex-end;
@@ -54,20 +59,20 @@ h1,h2,h3 {
     display: flex;
 }
 
-.nav__item{
+.nav__item {
     margin-left: 33px;
 }
 
-.about__container{
+.about__container {
     display: flex;
 }
 
-.about__avatar{
-width: 243px;
-height: 243px;
-border-radius: 50%;
-overflow: hidden;
-flex-shrink: 0;
+.about__avatar {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
 
 }
 
@@ -75,17 +80,17 @@ flex-shrink: 0;
 .download__btn {
     width: 208px;
     height: 47px;
-   border-style: none;
+    border-style: none;
 
     /* Primary */
-    
+
     background: #FF6464;
-    border-radius: 2px; 
+    border-radius: 2px;
     color: #FFFFFF;
-    margin-bottom: 71px; 
+    margin-bottom: 71px;
 }
 
-.about__title { 
+.about__title {
     width: 506px;
     height: 105px;
     left: 157px;
@@ -95,9 +100,9 @@ flex-shrink: 0;
     font-size: 44px;
     line-height: 60px;
     padding-bottom: 150px;
-    }
+}
 
-.nav{
+.nav {
     width: 152px;
     height: 43px;
     left: 846px;
@@ -106,30 +111,30 @@ flex-shrink: 0;
     font-weight: 500;
     line-height: 29px;
     text-align: right;
-    }
-    
-.about__img{
+}
+
+.about__img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.title-category{
-font-size: 22px;
-color: black;
+.title-category {
+    font-size: 22px;
+    color: black;
 
 }
 
 .recent-posts {
-    background-color: #EDF7FA; 
-    padding: 27px 0px 32px; 
+    background-color: #EDF7FA;
+    padding: 27px 0px 32px;
 }
 
-.recent-posts__articles{
-display: flex;
+.recent-posts__articles {
+    display: flex;
 }
 
-.rcent-posts__article{
+.rcent-posts__article {
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
@@ -139,49 +144,81 @@ display: flex;
 
 }
 
-.rcent-posts__article:last-child{
-margin: 0;
+.rcent-posts__article:last-child {
+    margin: 0;
 }
 
-.about__desc{
-padding-bottom: 30px;
+.about__desc {
+    padding-bottom: 30px;
 }
 
-.recent-posts__top{
-font-style: normal;
-display: flex;
-justify-content: space-between;
-color: #000000;
-margin-bottom: 22px; 
+.recent-posts__top {
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    margin-bottom: 22px;
 }
 
 .recent-posts__subtitle {
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.46;
-margin-bottom: 17px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.46;
+    margin-bottom: 17px;
 }
 
 .recent-posts__info {
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
 
 }
 
 .recent-posts__text {
     width: 368px;
-height: 117px;
-left: 171px;
-top: 835px;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
+    height: 117px;
+    left: 171px;
+    top: 835px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
 }
 
-.recent-post__separator{
-    margin:0px 26px;
+.recent-post__separator {
+    margin: 0px 26px;
 }
 
+.title-category {
+    padding-top: 33px;
+    padding-bottom: 27px;
+}
+
+.work__title {
+    display: flex;
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.work{
+    display: flex;
+}
+
+
+.work__img {
+    Width: 100%;
+    Height: 100%;
+    object-fit: contain;
+    margin-right: 28px;
+}
+
+.work__img-wrap {
+    Width: 246px;
+    Height: 180px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
