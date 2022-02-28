@@ -227,8 +227,13 @@ h3 {
 }
 
 .work__date{
-    border-radius: 50px;
+    border-radius: 60%;
     background-color: rgb(15, 15, 15);
     color: whitesmoke;
+    margin-right: 10px;
+}
 
+.work__date-block{
+    display: flex;
+   
 }
