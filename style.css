@@ -213,6 +213,7 @@ h3 {
     Height: 100%;
     object-fit: contain;
     margin-right: 28px;
+    margin-bottom: 28px;
 }
 
 .work__img-wrap {
@@ -221,4 +222,13 @@ h3 {
     border-radius: 6px;
     flex-shrink: 0;
     overflow: hidden;
+    margin-right: 28px;
+    margin-bottom: 72px;
+}
+
+.work__date{
+    border-radius: 50px;
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+
 }
